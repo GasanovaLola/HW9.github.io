@@ -142,8 +142,6 @@ for (var i = 0, size = farmAccountLog.length; i < size; i++) {
   massF[i] = farmAccountLog[i].family;  
 }
 
-console.log(massF);
-
 function reduce(array, callback, initialValue) {
 
   for (var i = 0, size = array.length; i < size; i++) {
